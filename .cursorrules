@@ -1,0 +1,45 @@
+# Substack Article Writing Project Rules
+
+## File Structure
+- `articles/` contains all articles - work directly in this folder
+- Maintain exact voice, cadence, and political framing found in existing articles
+- `research/` contains research notes, findings, and analysis
+- `quotes/` contains collected quotes organized by topic or article
+- `sources/` contains PDFs, documents, and reference materials
+
+## Writing Style
+- Prefer active voice and concrete examples
+- Use precise terminology (see context/terminology-guide.md)
+- Cite sources accurately with proper attribution
+- Maintain consistent framing throughout
+- Write for Substack audience: clear, engaging, substantive
+
+## Editing Scope
+- CRITIQUE: numbered notes on clarity/logic/rhythm. No rewrites unless asked.
+- LINE-EDIT: surgical changes only; preserve meaning & cadence.
+- RESEARCH: provide verifiable citations; no fabricated quotes.
+- FACT-CHECK: verify claims, dates, statistics, quotes.
+- QUOTE-INTEGRATION: suggest how to weave quotes naturally into narrative
+
+## Red Flags to Call Out
+- Unintended political claims or implications
+- Drift from established voice
+- Over-explanation that weakens argument
+- Logical inconsistencies
+- Unsupported assertions
+- Missing citations for claims
+- Quotes that don't flow naturally
+- Research that contradicts the argument
+
+## When Suggesting Changes
+- Output unified diff patches against the articles/* file
+- Never "continue the article"; only revise the provided section on request
+- Quote lines only when necessary; otherwise reference by heading/line
+- When suggesting research integration, reference files in research/ or quotes/
+
+## Substack-Specific
+- Articles should be self-contained but can reference series
+- Use engaging hooks and clear structure
+- Balance depth with readability
+- Support arguments with research from research/ folder
+- Integrate quotes naturally from quotes/ folder
